@@ -18,13 +18,14 @@
         var canvas = document.querySelector("canvas");
         canvas.width = 400;
         canvas.height = 160;
+         ctx.fillRect(10,20,340,100);
+        ctx.stroke();
+        ctx.fillStyle = ("black");        
         var ctx = canvas.getContext("2d");
         ctx.font = "bold 30px comic sans ms";
         ctx.fillStyle = "goldenrod";
         ctx.fillText("Hello world - canvas",20,60);
-        ctx.fillRect(10,20,340,100);
-        ctx.stroke();
-        ctx.fillStyle = ("black");
+       
       </script>
       
     </body>
